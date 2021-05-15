@@ -95,3 +95,38 @@ a.menu-logo {
   line-height: 70px;
   max-width: 280px;
 }
+
+/* ABOUT */
+
+.about-container {
+  max-width: 960px;
+  margin: 0 auto; 
+  padding-bottom: 64px;
+}
+
+.about-container h2 {
+  color: #2E3233;
+  padding: 120px 0 50px 0;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.about-container img {
+  max-width: 280px;
+  margin: 14px auto; 
+  padding-right: 30px;
+}
+
+.about-imgs {
+  max-width: 280px;
+  display: block;
+  float: left;
+}
+
+.about-container p {
+  color: #2E3233;
+  padding: 10px 0;
+}
+
+
+
