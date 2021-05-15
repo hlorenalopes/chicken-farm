@@ -128,5 +128,29 @@ a.menu-logo {
   padding: 10px 0;
 }
 
+/* PROCESS */
 
+.process-container {
+  background: #E2E3DF;
+  color: #2E3233;
+  text-align: center;
+  
+}
 
+.process-container h2 {
+  padding: 120px 0 50px 0;
+  font-size: 2rem;
+}
+
+.process-container img {
+  width: 58px;
+  padding-bottom: 50px;
+}
+
+.process-container p {
+  padding-bottom: 10px;
+}
+
+.process-list {
+  padding-bottom: 50px;
+}
