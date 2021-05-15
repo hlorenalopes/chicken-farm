@@ -1,0 +1,97 @@
+/* RESET */
+
+body, h1, h2, h3, p, ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* GENERAL */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* MENU */
+
+.menu {
+  background: #fff;
+  padding: 11px 0;
+}
+
+.menu-container {
+  max-width: 960px;
+  margin: 0 auto; 
+}
+
+.menu-container::after, .menu-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+a.menu-logo {
+  display: block;
+  float: left;
+}
+
+.img-logo {
+  max-width: 57px;
+}
+
+.menu-nav {
+  float: right;
+}
+
+.menu-nav li {
+  display: inline-block; 
+}
+
+.menu-nav a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: #2E3233;
+  font-size: 1.125em;
+  text-transform: uppercase;
+}
+
+.menu-nav a:hover {
+  color: #ABCD3C;
+}
+
+/* RESPONSIVO */
+
+@media only screen and (max-width: 739px) { 
+	.menu {
+		text-align: center;
+	}
+	a.menu-logo {
+		float: none;
+		margin: 0 auto;
+	}
+  .menu-nav {
+    float: none;
+    clear: both;
+  }
+}
+
+/* INTRO - container */
+
+.intro {
+  background: url('../img/main.png') no-repeat center center;
+  background-size: cover; 
+  padding: 210px 150px;
+  text-align: left;
+  color: #2E3233;
+}
+
+.intro h1 {
+  font-size: 4rem;
+  line-height: 70px;
+  max-width: 280px;
+}
