@@ -195,6 +195,7 @@ textarea {
   border-radius: 10px;
   font-weight: bold;
   font-size: 1.125rem;
+  cursor: pointer;
 }
 
 .btn-contact:hover {
@@ -234,6 +235,7 @@ footer h2 {
   font-size: 1.125rem;
   margin: 0 auto 54px;
   display: block;
+  cursor: pointer;
 }
 
 .btn-footer:hover {
