@@ -10,10 +10,18 @@ body, h1, h2, h3, p, ul {
 body {
   font-family: 'Segoe UI', sans-serif;
   color: #fff;
+  font-size: 1.125rem;
 }
 
 * {
   box-sizing: border-box;
+}
+
+h2 {
+  color: #2E3233;
+  padding: 120px 0 50px 0;
+  text-align: center;
+  font-size: 2rem;
 }
 
 /* MENU */
@@ -104,13 +112,6 @@ a.menu-logo {
   padding-bottom: 64px;
 }
 
-.about-container h2 {
-  color: #2E3233;
-  padding: 120px 0 50px 0;
-  text-align: center;
-  font-size: 2rem;
-}
-
 .about-container img {
   max-width: 280px;
   margin: 14px auto; 
@@ -137,11 +138,6 @@ a.menu-logo {
   
 }
 
-.process-container h2 {
-  padding: 120px 0 50px 0;
-  font-size: 2rem;
-}
-
 .process-container img {
   width: 58px;
   padding-bottom: 50px;
@@ -153,4 +149,50 @@ a.menu-logo {
 
 .process-list {
   padding-bottom: 50px;
+}
+
+.contact-container {
+  color: #515B5E;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.contact-form {
+  width: 500px;
+  height: 54px;
+  display: block;
+  text-align: center;
+  margin: 18px auto;
+  border-radius: 10px;
+  border: 1px solid #515B5E;
+}
+
+textarea {
+  resize: none;
+  width: 500px;
+  height: 198px;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 18px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.btn-contact {
+  background: #515B5E;
+  color: #fff;
+  border: 0;
+  width: 124px;
+  height: 54px;
+  padding: 10px;
+  margin-top: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.btn-contact:hover {
+  color: #2E3233;
+  background: #ABCD3C;
 }
