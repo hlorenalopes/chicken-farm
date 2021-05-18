@@ -1,6 +1,11 @@
 /* RESET */
 
-body, h1, h2, h3, p, ul {
+body,
+h1,
+h2,
+h3,
+p,
+ul {
   padding: 0;
   margin: 0;
 }
@@ -18,8 +23,8 @@ body {
 }
 
 h2 {
-  color: #2E3233;
-  padding: 120px 0 50px 0;
+  color: #2e3233;
+  padding: 120px 0 54px 0;
   text-align: center;
   font-size: 2rem;
 }
@@ -33,10 +38,11 @@ h2 {
 
 .menu-container {
   max-width: 960px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
-.menu-container::after, .menu-container::before {
+.menu-container::after,
+.menu-container::before {
   content: '';
   display: table;
   clear: both;
@@ -56,32 +62,32 @@ a.menu-logo {
 }
 
 .menu-nav li {
-  display: inline-block; 
+  display: inline-block;
 }
 
 .menu-nav a {
   display: block;
   padding: 20px;
   text-decoration: none;
-  color: #2E3233;
+  color: #2e3233;
   font-size: 1.125em;
   text-transform: uppercase;
 }
 
 .menu-nav a:hover {
-  color: #ABCD3C;
+  color: #abcd3c;
 }
 
 /* RESPONSIVO */
 
-@media only screen and (max-width: 739px) { 
-	.menu {
-		text-align: center;
-	}
-	a.menu-logo {
-		float: none;
-		margin: 0 auto;
-	}
+@media only screen and (max-width: 739px) {
+  .menu {
+    text-align: center;
+  }
+  a.menu-logo {
+    float: none;
+    margin: 0 auto;
+  }
   .menu-nav {
     float: none;
     clear: both;
@@ -92,10 +98,10 @@ a.menu-logo {
 
 .intro {
   background: url('../img/main.png') no-repeat center center;
-  background-size: cover; 
+  background-size: cover;
   padding: 210px 150px;
   text-align: left;
-  color: #2E3233;
+  color: #2e3233;
 }
 
 .intro h1 {
@@ -108,13 +114,13 @@ a.menu-logo {
 
 .about-container {
   max-width: 960px;
-  margin: 0 auto; 
+  margin: 0 auto;
   padding-bottom: 64px;
 }
 
 .about-container img {
   max-width: 280px;
-  margin: 14px auto; 
+  margin: 14px auto;
   padding-right: 30px;
 }
 
@@ -125,17 +131,16 @@ a.menu-logo {
 }
 
 .about-container p {
-  color: #2E3233;
+  color: #2e3233;
   padding: 10px 0;
 }
 
 /* PROCESS */
 
 .process-container {
-  background: #E2E3DF;
-  color: #2E3233;
+  background: #e2e3df;
+  color: #2e3233;
   text-align: center;
-  
 }
 
 .process-container img {
@@ -152,7 +157,7 @@ a.menu-logo {
 }
 
 .contact-container {
-  color: #515B5E;
+  color: #515b5e;
   text-align: center;
   padding-bottom: 50px;
 }
@@ -164,7 +169,7 @@ a.menu-logo {
   text-align: center;
   margin: 18px auto;
   border-radius: 10px;
-  border: 1px solid #515B5E;
+  border: 1px solid #515b5e;
 }
 
 textarea {
@@ -180,7 +185,7 @@ textarea {
 }
 
 .btn-contact {
-  background: #515B5E;
+  background: #515b5e;
   color: #fff;
   border: 0;
   width: 124px;
@@ -193,6 +198,65 @@ textarea {
 }
 
 .btn-contact:hover {
+  color: #2e3233;
+  background: #abcd3c;
+}
+
+.footer-container {
+  background: #515B5E;
+  color: #fff;
+}
+
+footer h2 {
+  color: #E2E3DF;
+}
+
+.footer-form {
+  width: 500px;
+  height: 54px;
+  display: block;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  margin: 0 auto 18px;
+}
+
+.btn-footer {
+  background: #E2E3DF;
   color: #2E3233;
-  background: #ABCD3C;
+  border: 0;
+  width: 124px;
+  height: 54px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.125rem;
+  margin: 0 auto 54px;
+  display: block;
+}
+
+.btn-footer:hover {
+  color: #2e3233;
+  background: #abcd3c;
+}
+
+.info-footer {
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.copyright {
+  margin: 0 auto;
+  padding: 36px 0 54px;
+  text-align: center;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: #abcd3c;
+}
+
+.copyright a:hover {
+  text-decoration: underline;
 }
