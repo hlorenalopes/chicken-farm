@@ -3,9 +3,8 @@
 body,
 h1,
 h2,
-h3,
-p,
-ul {
+ul,
+p {
   padding: 0;
   margin: 0;
 }
@@ -33,7 +32,13 @@ h2 {
 
 .menu {
   background: #fff;
-  padding: 11px 0;
+  padding: 23px 0;
+  height: 116px;
+  margin: 0 auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 .menu-container {
@@ -78,27 +83,12 @@ a.menu-logo {
   color: #abcd3c;
 }
 
-/* RESPONSIVO */
-
-@media only screen and (max-width: 739px) {
-  .menu {
-    text-align: center;
-  }
-  a.menu-logo {
-    float: none;
-    margin: 0 auto;
-  }
-  .menu-nav {
-    float: none;
-    clear: both;
-  }
-}
-
 /* INTRO - container */
 
 .intro {
   background: url('../img/main.png') no-repeat center center;
   background-size: cover;
+  margin-top: 100px;
   padding: 210px 150px;
   text-align: left;
   color: #2e3233;
@@ -204,12 +194,12 @@ textarea {
 }
 
 .footer-container {
-  background: #515B5E;
+  background: #515b5e;
   color: #fff;
 }
 
 footer h2 {
-  color: #E2E3DF;
+  color: #e2e3df;
 }
 
 .footer-form {
@@ -224,8 +214,8 @@ footer h2 {
 }
 
 .btn-footer {
-  background: #E2E3DF;
-  color: #2E3233;
+  background: #e2e3df;
+  color: #2e3233;
   border: 0;
   width: 124px;
   height: 54px;
@@ -262,4 +252,141 @@ footer h2 {
 
 .copyright a:hover {
   text-decoration: underline;
+}
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 992px) {
+  /* MENU */
+  .menu-container {
+    max-width: 980px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #fff;
+    padding-top: 23px;
+  }
+
+  a.menu-logo {
+    float: none;
+    margin: 0 auto;
+  }
+  .menu-nav {
+    float: none;
+    clear: both;
+  }
+
+  /* INTRO */
+  .intro {
+    margin-top: 161px;
+    padding: 60px 40px;
+  }
+
+  /* ABOUT */
+  .about-container img {
+    padding: 0;
+  }
+
+  .about-imgs {
+    width: 800px;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .about-container p {
+    color: #2e3233;
+    padding: 10px 54px;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+  /* MENU */
+  a.menu-logo {
+    float: none;
+    margin: 0 auto;
+  }
+  .menu-nav {
+    float: none;
+    clear: both;
+  }
+
+  /* INTRO */
+  .intro {
+    padding: 130px 40px;
+  }
+
+  .intro h1 {
+    font-size: 3.5rem;
+    line-height: 70px;
+    max-width: 250px;
+  }
+
+  /* ABOUT */
+  .about-container img {
+    padding: 0;
+  }
+
+  .about-imgs {
+    width: 800px;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .about-container p {
+    color: #2e3233;
+    padding: 10px 54px;
+    text-align: center;
+  }
+
+  /* FOOTER */
+  .copyright {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  h2, p, img {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  /* INTRO */
+  .intro {
+    margin-top: 161px;
+    padding: 60px 40px;
+  }
+  
+  .intro h1 {
+    font-size: 2.25rem;
+    line-height: 36px;
+    max-width: 120px;
+  }
+
+  /* CONTACT */
+  .contact-form {
+    width: 300px;
+  }
+
+  textarea {
+    width: 300px;
+  }
+
+  /* FOOTER */
+  .footer-form {
+    width: 300px;
+  }
+
+  .copyright {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
 }
