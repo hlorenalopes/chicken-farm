@@ -70,11 +70,15 @@
   <section class="contact-container">
     <a name="contact"></a>
     <h2>Get in contact</h2>
-    <form action="" method="">
-      <input class="contact-form" type="text" placeholder="Name">
-      <input class="contact-form" type="text" placeholder="Phone">
-      <input class="contact-form" type="text" placeholder="Email">
-      <textarea maxlength="600" placeholder="Message"></textarea>
+    <form action="" method="POST">
+      <label for="name">Name:</label>
+      <input class="contact-form" type="text" placeholder="John Doe" required>
+      <label for="phone">Phone:</label>
+      <input class="contact-form" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}|[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="000-000-0000" required>
+      <label for="email">E-mail:</label>
+      <input class="contact-form" type="email" placeholder="user@mail.com" required>
+      <label for="message">Message:</label>
+      <textarea maxlength="600" placeholder="Enter your message here" required></textarea>
       <input class="btn-contact" type="submit" value="Send">
     </form>
     
@@ -82,9 +86,9 @@
 
   <footer class="footer-container">
     <h2>Sign our newsletter</h2>
-    <form action="" method="">
-      <input class="footer-form" type="text" placeholder="Name">
-      <input class="footer-form" type="text" placeholder="Email">
+    <form action="" method="POST">
+      <input class="footer-form" type="text" placeholder="Name" required>
+      <input class="footer-form" type="email" placeholder="user@email.com" required>
       <input class="btn-footer" type="submit" value="Send">
     </form>
 

@@ -162,6 +162,10 @@ a.menu-logo {
   border: 1px solid #515b5e;
 }
 
+label {
+  font-weight: bold;
+}
+
 textarea {
   resize: none;
   width: 500px;
@@ -170,7 +174,7 @@ textarea {
   text-align: center;
   padding: 18px;
   border-radius: 10px;
-  margin: 0 auto;
+  margin: 18px auto 0;
   display: block;
 }
 
@@ -251,7 +255,7 @@ footer h2 {
 }
 
 .copyright a:hover {
-  text-decoration: underline;
+  border-bottom: 3px solid #abcd3c;
 }
 
 /* RESPONSIVENESS */
