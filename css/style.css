@@ -285,48 +285,7 @@ footer h2 {
   /* INTRO */
   .intro {
     margin-top: 161px;
-    padding: 60px 40px;
-  }
-
-  /* ABOUT */
-  .about-container img {
-    padding: 0;
-  }
-
-  .about-imgs {
-    width: 800px;
-    margin: 0 auto;
-    float: none;
-  }
-
-  .about-container p {
-    color: #2e3233;
-    padding: 10px 54px;
-    text-align: center;
-  }
-
-}
-
-@media only screen and (max-width: 992px) {
-  /* MENU */
-  a.menu-logo {
-    float: none;
-    margin: 0 auto;
-  }
-  .menu-nav {
-    float: none;
-    clear: both;
-  }
-
-  /* INTRO */
-  .intro {
     padding: 130px 40px;
-  }
-
-  .intro h1 {
-    font-size: 3.5rem;
-    line-height: 70px;
-    max-width: 250px;
   }
 
   /* ABOUT */
@@ -351,6 +310,7 @@ footer h2 {
     padding-left: 18px;
     padding-right: 18px;
   }
+
 }
 
 @media only screen and (max-width: 576px) {
