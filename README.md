@@ -1,5 +1,5 @@
 # Chicken Farm Website
-Simple responsive website create with HTML and CSS.
+Simple responsive website created with HTML and CSS.
 
 ## Objective
 This project was created for learning purposes and to demonstrate my abilities with HTML and CSS. It is super simple since it is my first time "flying solo" and I just wanted to put something out here in github as soon as possible. Thought it is simple, it was made with care and I hope you will enjoy it.
