@@ -88,8 +88,6 @@
     <form action="contact-form-handler.php" method="POST" name="contact-form">
       <label for="name-input">Name:</label>
       <input id="name-input" class="contact-form" type="text" placeholder="John Doe" required>
-      <label for="phone-input">Phone:</label>
-      <input id="phone-input" class="contact-form" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}|[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="000-000-0000" required>
       <label for="email-input">Email:</label>
       <input id="email-input" class="contact-form" type="email" placeholder="user@mail.com" required>
       <label for="message-textarea">Message:</label>
@@ -117,7 +115,6 @@
   <script language="JavaScript">
     var frmvalidator = new Validator("contactform");
     frmvalidator.addValidation("name", "req", "Please provide your name");
-    frmvalidator.addValidation("phone", "req", "Please provide your phone");
     frmvalidator.addValidation("email", "req", "Please provide your email");
     frmvalidator.addValidation("email", "email",
       "Please enter a valid email address");
