@@ -146,55 +146,16 @@ a.menu-logo {
   padding-bottom: 50px;
 }
 
+/* CONTACT */
+
 .contact-container {
-  color: #515b5e;
+  color: #2e3233;
   text-align: center;
   padding-bottom: 50px;
 }
 
-.contact-form {
-  width: 500px;
-  height: 54px;
-  display: block;
-  text-align: center;
-  margin: 18px auto;
-  border-radius: 10px;
-  border: 1px solid #515b5e;
-}
-
-label {
-  font-weight: bold;
-}
-
-textarea {
-  resize: none;
-  width: 500px;
-  height: 198px;
-  font-family: 'Segoe UI', sans-serif;
-  text-align: center;
-  padding: 18px;
-  border-radius: 10px;
-  margin: 18px auto 0;
-  display: block;
-}
-
-.btn-contact {
-  background: #515b5e;
-  color: #fff;
-  border: 0;
-  width: 124px;
-  height: 54px;
-  padding: 10px;
-  margin-top: 18px;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 1.125rem;
-  cursor: pointer;
-}
-
-.btn-contact:hover {
-  color: #2e3233;
-  background: #abcd3c;
+.contact-container p {
+  margin-bottom: 10px;
 }
 
 .footer-container {
@@ -202,49 +163,9 @@ textarea {
   color: #fff;
 }
 
-footer h2 {
-  color: #e2e3df;
-}
-
-.footer-form {
-  width: 500px;
-  height: 54px;
-  display: block;
-  margin-bottom: 18px;
-  border-radius: 10px;
-  border: none;
-  text-align: center;
-  margin: 0 auto 18px;
-}
-
-.btn-footer {
-  background: #e2e3df;
-  color: #2e3233;
-  border: 0;
-  width: 124px;
-  height: 54px;
-  padding: 10px;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 1.125rem;
-  margin: 0 auto 54px;
-  display: block;
-  cursor: pointer;
-}
-
-.btn-footer:hover {
-  color: #2e3233;
-  background: #abcd3c;
-}
-
-.info-footer {
-  margin-bottom: 14px;
-  text-align: center;
-}
-
 .copyright {
   margin: 0 auto;
-  padding: 36px 0 54px;
+  padding: 20px;
   text-align: center;
   font-size: 1rem;
 }
@@ -305,12 +226,6 @@ footer h2 {
     text-align: center;
   }
 
-  /* FOOTER */
-  .copyright {
-    padding-left: 18px;
-    padding-right: 18px;
-  }
-
 }
 
 @media only screen and (max-width: 576px) {
@@ -323,9 +238,14 @@ footer h2 {
     font-size: 1.5rem;
   }
 
+  /* MENU */
+  .menu-nav a {
+    padding: 10px;
+  }
+
   /* INTRO */
   .intro {
-    margin-top: 161px;
+    margin-top: 141px;
     padding: 60px 40px;
   }
   
@@ -334,50 +254,4 @@ footer h2 {
     line-height: 36px;
     max-width: 120px;
   }
-
-  /* CONTACT */
-  .contact-form {
-    width: 300px;
-  }
-
-  textarea {
-    width: 300px;
-  }
-
-  /* FOOTER */
-  .footer-form {
-    width: 300px;
-  }
-
-  .copyright {
-    padding-left: 18px;
-    padding-right: 18px;
-  }
-}
-
-/* THANK YOU PAGE */
-.thank-you button {
-  background: #515b5e;
-  color: #fff;
-  border: 0;
-  width: 300px;
-  height: 54px;
-  padding: 10px;
-  margin-top: 18px;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 1.125rem;
-  cursor: pointer;
-}
-
-.thank-you button:hover {
-  color: #2e3233;
-  background: #abcd3c;
-}
-
-.thank-you {
-  background: #e2e3df;
-  color: #2e3233;
-  text-align: center;
-  padding: 100px 0;
 }

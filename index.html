@@ -85,40 +85,15 @@
 
   <section id="contact" class="contact-container">
     <h2>Get in contact</h2>
-    <form action="contact-form-handler.php" method="POST" name="contact-form">
-      <label for="name-input">Name:</label>
-      <input id="name-input" class="contact-form" type="text" placeholder="John Doe" required>
-      <label for="email-input">Email:</label>
-      <input id="email-input" class="contact-form" type="email" placeholder="user@mail.com" required>
-      <label for="message-textarea">Message:</label>
-      <textarea id="message-textarea" maxlength="600" placeholder="Enter your message here" required></textarea>
-      <input class="btn-contact" type="submit" value="Send">
-    </form>
+    <p class="info-contact"><strong>Email:</strong> contact@chickenfarm.com</p>
+    <p class="info-contact"><strong>Phone:</strong> +1 403-222-7171</p>
+    <p class="info-contact"><strong>Address:</strong> 101 9 Ave SW, Calgary, AB</p>
 
   </section>
 
   <footer class="footer-container">
-    <h2>Sign our newsletter</h2>
-    <form action="" method="POST">
-      <input class="footer-form" type="text" placeholder="Name" required>
-      <input class="footer-form" type="email" placeholder="user@email.com" required>
-      <input class="btn-footer" type="submit" value="Send">
-    </form>
-
-    <p class="info-footer"><strong>Address:</strong> 101 9 Ave SW, Calgary, AB</p>
-    <p class="info-footer"><strong>Phone:</strong> +1 403-222-7171</p>
-    <p class="info-footer"><strong>Email:</strong> contact@chickenfarm.com</p>
-
     <p class="copyright">Copyright &copy; 2021. All rights reserved. Website built for learning purposes. <a href="https://github.com/hlorenalopes/">Click here</a> to go to my Github.</p>
   </footer>
-
-  <script language="JavaScript">
-    var frmvalidator = new Validator("contactform");
-    frmvalidator.addValidation("name", "req", "Please provide your name");
-    frmvalidator.addValidation("email", "req", "Please provide your email");
-    frmvalidator.addValidation("email", "email",
-      "Please enter a valid email address");
-  </script>
 
 </body>
 
