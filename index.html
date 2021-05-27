@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta name="description" content="Buy chickens from the farm straight to your home.">
-  
+
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Chicken Farm - The best chicken is here" />
   <meta property="og:description" content="Buy chickens from the farm straight to your home." />
@@ -85,7 +85,7 @@
 
   <section id="contact" class="contact-container">
     <h2>Get in contact</h2>
-    <form action="" method="POST">
+    <form action="contact-form-handler.php" method="POST" name="contact-form">
       <label for="name-input">Name:</label>
       <input id="name-input" class="contact-form" type="text" placeholder="John Doe" required>
       <label for="phone-input">Phone:</label>
@@ -113,6 +113,15 @@
 
     <p class="copyright">Copyright &copy; 2021. All rights reserved. Website built for learning purposes. <a href="https://github.com/hlorenalopes/">Click here</a> to go to my Github.</p>
   </footer>
+
+  <script language="JavaScript">
+    var frmvalidator = new Validator("contactform");
+    frmvalidator.addValidation("name", "req", "Please provide your name");
+    frmvalidator.addValidation("phone", "req", "Please provide your phone");
+    frmvalidator.addValidation("email", "req", "Please provide your email");
+    frmvalidator.addValidation("email", "email",
+      "Please enter a valid email address");
+  </script>
 
 </body>
 
